@@ -31,7 +31,7 @@ main()
     }
     while(choice=='y'||choice =='Y');
 }
- FIRST(char* Result,char c)
+void FIRST(char* Result,char c)
 {
     int i,j,k;
     char subResult[20];
