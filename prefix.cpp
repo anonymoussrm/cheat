@@ -58,7 +58,7 @@ int main()
         }
         else
         {
-            while(priority(st[top])>=priority(*e))
+            while(priority(st[top])>priority(*e))// if output is not right use '>=' instead of '>'
                 pre[++t] = pop();
                 push(*e);
         }
